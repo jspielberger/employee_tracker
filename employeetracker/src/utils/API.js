@@ -1,17 +1,9 @@
 import axios from "axios";
 
-const BASEURL = 'https://randomuser.me/api/'
+const BASEURL = "https://randomuser.me/api/?results=25"
 
-export default {
-    search: function(query) {
-        return axios.get(BASEURL + query)
-    }
+
+export default function()  {
+        return axios.get(BASEURL)
 }
-$.ajax({
-    url: 'https://randomuser.me/api/',
-    dataType: 'json',
-    success: function(data) {
-      console.log(data);
-    }
-  });
         
