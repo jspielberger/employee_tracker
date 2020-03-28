@@ -1,0 +1,16 @@
+.form-group {
+    background-color: red;
+    font-stretch: expanded;
+    font-size: 30px;
+}
+
+.container {
+    background-color: aqua;
+    width: 2000px;
+    border-style: inset;
+}
+
+.row {
+    padding-bottom: .5%;
+    border-style: outset;
+}

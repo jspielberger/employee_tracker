@@ -7,7 +7,7 @@ import EmployeeDisplay from './components/EmployeeDisplay';
 function App() {
   return (
     <React.Fragment>
-          <SearchForm/>
+          {/* <SearchForm/> */}
           <EmployeeDisplay/>
 
     </React.Fragment>
