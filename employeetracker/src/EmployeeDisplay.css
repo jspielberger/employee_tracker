@@ -1,9 +1,18 @@
 .form-group {
-    background-color: red;
+    background-color: #93e786;
     font-stretch: expanded;
-    font-size: 30px;
+    font-size: 20px;
+    padding-left: 25%;
+    font-weight: 600;
 }
 
+input:focus {
+    background-color: yellowgreen;
+}
+
+header {
+    padding-left: 10%;
+}
 .container {
     background-color: aqua;
     width: 2000px;
@@ -13,4 +22,11 @@
 .row {
     padding-bottom: .5%;
     border-style: outset;
+}
+
+.employee {
+    padding-left: 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
 }

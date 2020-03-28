@@ -28,6 +28,9 @@ export default function () {
 
     return (
         <div className="container">
+            <header>
+                <h2>Employee Directory and Search Engine</h2>
+            </header>
             <div className="row form-group">
                 <label htmlFor="search">Search:</label>
                 <input onChange={(e) => { handleChange(e.target.value.toLowerCase()) }} placeholder="Search for an Employee" />
