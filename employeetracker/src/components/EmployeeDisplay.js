@@ -39,7 +39,7 @@ export default function () {
             <div className="row">
                 <div className="col-12">
                     {filteremployees.map(emp =>
-                        <div className="row employee">Name: {emp.name.title}: {emp.name.first} {emp.name.last} | Email: {emp.email} | Phone: {emp.phone} </div>
+                        <p className="row employee">Name: {emp.name.title}: {emp.name.first} {emp.name.last} <br></br> Email: {emp.email} <br></br> Phone: {emp.phone} </p>
                     )
                     }
 
